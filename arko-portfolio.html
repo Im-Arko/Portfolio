@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Arko Biswas — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Epilogue:wght@300;400;500&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav id="mainNav">
+  <a class="nav-logo" href="#">Arko <span>Biswas</span></a>
+  <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#demos">JS Demos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="mailto:arkobiswas2006@gmail.com">Get in touch</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">CSE (IoT) · VIT Vellore · 2024–2028</div>
+    <h1 class="hero-name">
+      <span class="first">Arko</span>
+      <span class="last">Biswas.</span>
+    </h1>
+    <p class="hero-tagline">
+      <strong>Developer, designer, musician.</strong> Building at the intersection of software and creativity — from Unity game engines to web interfaces, hackathon stages to guitar sets.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View Work</a>
+      <a href="#contact" class="btn-ghost">Say Hello</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <span class="hero-stat-n">8.78</span>
+        <span class="hero-stat-l">CGPA</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-n">96.8</span>
+        <span class="hero-stat-l">ICSE %</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-n">2</span>
+        <span class="hero-stat-l">Clubs</span>
+      </div>
+    </div>
+    <div class="hero-quick">
+      <div class="hero-quick-title">// currently</div>
+      <div class="hero-quick-items">
+        <div class="hero-quick-item"><span class="hq-dot gold"></span>Design Head @ IOTHINC VIT</div>
+        <div class="hero-quick-item"><span class="hq-dot blue"></span>Core Member @ Aikyataan BLA</div>
+        <div class="hero-quick-item"><span class="hq-dot red"></span>Building with C#, Unity, React</div>
+        <div class="hero-quick-item"><span class="hq-dot green"></span>Performing guitar &amp; vocals on stage</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>Java</span><span>Python</span><span>C</span><span>C++</span><span>C#</span><span>JavaScript</span><span>HTML / CSS</span><span>React</span><span>Node.js</span><span>Unity</span><span>Git</span><span>IoT</span>
+    <span>Java</span><span>Python</span><span>C</span><span>C++</span><span>C#</span><span>JavaScript</span><span>HTML / CSS</span><span>React</span><span>Node.js</span><span>Unity</span><span>Git</span><span>IoT</span>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-label">About</div>
+    <h2 class="sec-title">Who I <em>am</em></h2>
+    <div class="about-layout">
+      <div class="about-text">
+        <p>I'm Arko — a Computer Science Engineering student specialising in IoT at VIT Vellore, currently in my second year. I'm well versed in multiple languages (Java, Python, C, C#, JavaScript), build games in Unity, and design UIs.</p>
+        <p>When I'm not in front of a screen, I'm on stage. I have performed as a guitarist and vocalist at multiple university events. Music and code share the same underlying logic: structure, rhythm, and the satisfaction of a system that just <em>works</em>.</p>
+        <p>As a part of the Technical Core at IOTHINC, I've organised hackathons, coordinated cross-functional teams, and helped shape the experience for participants and judges at Gravitas, VIT's annual tech fest.</p>
+
+        <div class="about-education">
+          <div class="edu-label">Education</div>
+          <div class="edu-item fade-up">
+            <div class="edu-school">Vellore Institute of Technology</div>
+            <div class="edu-meta">B.Tech CSE (IoT) · 2024 – 2028</div>
+            <span class="edu-score">CGPA: 8.78 / 10</span>
+          </div>
+          <div class="edu-item fade-up">
+            <div class="edu-school">St. Xavier's Collegiate School, Kolkata</div>
+            <div class="edu-meta">ISC · 2022 – 2024</div>
+            <span class="edu-score">92.75%</span>
+          </div>
+          <div class="edu-item fade-up">
+            <div class="edu-school">St. Xavier's Collegiate School, Kolkata</div>
+            <div class="edu-meta">ICSE · 2012 – 2022</div>
+            <span class="edu-score">96.8%</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-sidebar">
+        <div class="side-card fade-up">
+          <div class="side-card-label">Role</div>
+          <div class="side-card-val">Design Head</div>
+          <div style="font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:.3rem">IOTHINC · Jan 2026 – Present</div>
+        </div>
+        <div class="side-card fade-up">
+          <div class="side-card-label">Hobbies</div>
+          <div class="side-card-val">Playing the Guitar • Singing <br> Gaming • Travelling</div>
+          <div style="font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:.3rem">Just to pass the time</div>
+        </div>
+        <div class="side-card fade-up">
+          <div class="side-card-label">Location</div>
+          <div class="side-card-val">Kolkata → Vellore</div>
+          <div style="font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:.3rem">West Bengal, India</div>
+        </div>
+        <div class="side-card fade-up">
+          <div class="side-card-label">Contact</div>
+          <div style="font-family:var(--mono);font-size:.75rem;color:var(--text);margin-top:.25rem">arkobiswas2006@gmail.com</div>
+          <div style="font-family:var(--mono);font-size:.75rem;color:var(--muted);margin-top:.2rem">+91 7003390972</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EXPERIENCE ═══════════ -->
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-label">Experience</div>
+    <h2 class="sec-title">What I've <em>done</em></h2>
+    <div class="experience-layout">
+
+      <div class="exp-card fade-up">
+        <div class="exp-left">
+          <div>
+            <div class="exp-period">Jan 2026<br/>– Present</div>
+            <div class="exp-org-badge">IOTHINC</div>
+          </div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-role">Design Head</div>
+          <div class="exp-place">Internet of Things Community · VIT Vellore</div>
+          <ul class="exp-bullets">
+            <li>Served on the organising committee for a hackathon at Gravitas, VIT's annual tech fest — from planning through execution.</li>
+            <li>Coordinated participants, managed registrations, and handled on-ground logistics across multiple events.</li>
+            <li>Collaborated with cross-functional teams to ensure a smooth, positive experience for attendees and judges.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-card fade-up">
+        <div class="exp-left">
+          <div>
+            <div class="exp-period">Apr 2025<br/>– Present</div>
+            <div class="exp-org-badge">Aikyataan BLA</div>
+          </div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-role">Executive Core Member</div>
+          <div class="exp-place">Bengali Literary Association · VIT Vellore</div>
+          <ul class="exp-bullets">
+            <li>Performed as guitarist and vocalist at multiple onstage events — Bengali New Year celebrations, Freshers' Icebreaker programs, and more.</li>
+            <li>Member of the executive core: strategic planning, decision-making, and fostering active member engagement.</li>
+            <li>Coordinated club activities and supported team members to ensure effective execution of initiatives.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-label">Projects</div>
+    <h2 class="sec-title">Things I've <em>built</em></h2>
+    <div class="projects-grid">
+
+
+      <div class="proj-card solo fade-up">
+        <div>
+          <div class="proj-num">01 — Featured Project</div>
+          <div class="proj-name">Tetris</div>
+          <div class="proj-tech">C# · Unity Game Engine</div>
+          <p class="proj-desc">A fully functional Tetris game built in Unity with C#. Implements all core gameplay mechanics: tetromino movement and rotation, line-clearing logic, a scoring system, and game-over conditions. Focused on clean game logic, responsive controls, and efficient state management.</p>
+          <div class="proj-chips">
+            <span class="chip">C#</span>
+            <span class="chip">Unity</span>
+            <span class="chip">Game State</span>
+            <span class="chip">OOP</span>
+            <span class="chip">Physics</span>
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills-section">
+  <div class="wrap">
+    <div class="sec-label">Skills</div>
+    <h2 class="sec-title">Languages &amp; <em>tools</em></h2>
+    <div class="skills-grid">
+      <div>
+        <div class="skill-group-title">Languages</div>
+        <div class="skill-row fade-up"><span class="skill-name">Python</span><div class="skill-track"><div class="skill-fill" data-w=".85"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">Java</span><div class="skill-track"><div class="skill-fill" data-w=".80"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">C / C++</span><div class="skill-track"><div class="skill-fill" data-w=".78"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">C#</span><div class="skill-track"><div class="skill-fill" data-w=".75"></div></div><span class="skill-pct">75%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill blue" data-w=".72"></div></div><span class="skill-pct">72%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">HTML / CSS</span><div class="skill-track"><div class="skill-fill blue" data-w=".82"></div></div><span class="skill-pct">82%</span></div>
+      </div>
+      <div>
+        <div class="skill-group-title">Frameworks &amp; Tools</div>
+        <div class="skill-row fade-up"><span class="skill-name">Unity</span><div class="skill-track"><div class="skill-fill" data-w=".78"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">React</span><div class="skill-track"><div class="skill-fill blue" data-w=".65"></div></div><span class="skill-pct">65%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">Node.js</span><div class="skill-track"><div class="skill-fill blue" data-w=".60"></div></div><span class="skill-pct">60%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">Git</span><div class="skill-track"><div class="skill-fill" data-w=".75"></div></div><span class="skill-pct">75%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">Arduino</span><div class="skill-track"><div class="skill-fill" data-w=".65"></div></div><span class="skill-pct">65%</span></div>
+        <div class="skill-row fade-up"><span class="skill-name">Bootstrap</span><div class="skill-track"><div class="skill-fill blue" data-w=".78"></div></div><span class="skill-pct">78%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="demos">
+  <div class="wrap">
+    <div class="sec-label">Interactive</div>
+    <h2 class="sec-title">JavaScript <em>demos</em></h2>
+    <div class="demos-note">
+      These widgets are live implementations of Web Technologies course assignments — each one a real piece of JS running in this page.
+    </div>
+    <div class="demos-grid">
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">calculateTotal()</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:.5rem">
+          <div>
+            <div style="font-family:var(--mono);font-size:.58rem;color:var(--muted);margin-bottom:3px">PRICE ₹</div>
+            <input class="d-input" type="number" id="dp" value="499" style="width:90px"/>
+          </div>
+          <div>
+            <div style="font-family:var(--mono);font-size:.58rem;color:var(--muted);margin-bottom:3px">QTY</div>
+            <input class="d-input" type="number" id="dq" value="3" style="width:64px"/>
+          </div>
+          <button class="d-btn fill" onclick="doCalc()" style="align-self:flex-end">Run</button>
+        </div>
+        <div class="d-result" id="dresult">₹1,497</div>
+      </div>
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">Status Toggle</div>
+        <div id="status-indicator">
+          <span id="s-dot"></span>
+          <span id="s-text">Status: Offline</span>
+        </div>
+        <button class="d-btn" onclick="toggleSt()">Toggle</button>
+      </div>
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">Completed List</div>
+        <ul class="todo-ul">
+          <li class="todo-li" onclick="this.classList.toggle('done')">Study HTML semantics</li>
+          <li class="todo-li" onclick="this.classList.toggle('done')">Master CSS Grid</li>
+          <li class="todo-li done" onclick="this.classList.toggle('done')">Ship a Unity game</li>
+        </ul>
+        <div style="font-family:var(--mono);font-size:.6rem;color:var(--muted)">Click to mark done</div>
+      </div>
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">Hover Events</div>
+        <div id="hov-box"
+          style="width:70px;height:70px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.8rem;cursor:pointer;margin-bottom:.75rem;transition:border-color .2s"
+          onmouseenter="hIn()" onmouseleave="hOut()">🎮</div>
+        <div id="hov-txt" style="font-family:var(--mono);font-size:.72rem;color:var(--muted);line-height:1.5">Hover to inspect</div>
+      </div>
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">Password Strength</div>
+        <input class="d-input" type="password" placeholder="Type a password…" oninput="chkPass(this.value)" style="margin-bottom:0"/>
+        <div class="str-track"><div class="str-fill" id="sfill"></div></div>
+        <div class="str-msg" id="smsg"></div>
+      </div>
+
+      <div class="demo-tile">
+        <div class="demo-tile-name">Gallery Fade</div>
+        <div class="gal-main" id="gmain" style="background:linear-gradient(135deg,#1b2a1e,#2d6a4f)">🌿</div>
+        <div class="gal-thumbs">
+          <div class="gal-t act" onclick="swGal(0,this)" style="background:linear-gradient(135deg,#1b2a1e,#2d6a4f)">🌿</div>
+          <div class="gal-t" onclick="swGal(1,this)" style="background:linear-gradient(135deg,#2a1010,#6b2020)">🔥</div>
+          <div class="gal-t" onclick="swGal(2,this)" style="background:linear-gradient(135deg,#0a1a30,#1a3a6a)">🌊</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-label">Contact</div>
+    <h2 class="sec-title">Let's <em>talk.</em></h2>
+    <div class="contact-layout">
+      <div>
+        <p class="contact-lede">Open to internships, collaborations, project feedback, and interesting conversations. Feel free to reach out via the form or directly.</p>
+        <div class="contact-lines">
+          <div class="contact-line">
+            <div class="c-icon">@</div>
+            <span class="c-val"><a href="mailto:arkobiswas2006@gmail.com">arkobiswas2006@gmail.com</a></span>
+          </div>
+          <div class="contact-line">
+            <div class="c-icon">☎</div>
+            <span class="c-val">+91 7003390972</span>
+          </div>
+          <div class="contact-line">
+            <div class="c-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png"
+       width="20" height="auto" border="0" alt="LinkedInLogo" /></div>
+            <span class="c-val"><a href="https://www.linkedin.com/in/arko-b-419772280/" target="_blank" rel="noopener">LinkedIn</a></span>
+              
+          </div>
+          <div class="contact-line">
+            <div class="c-icon"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
+       width="25" height="auto" border="0" alt="GithubLogo" /></div>
+            <span class="c-val"><a href="https://github.com/Im-Arko" target="_blank" rel="noopener">GitHub</a></span>
+          </div>
+
+          <div class="contact-line">
+            <div class="c-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"
+       width="25" height="auto" border="0" alt="IGLogo" /></div>
+            <span class="c-val"><a href="https://www.instagram.com/ami.arko_" target="_blank" rel="noopener">Instagram</a></span>
+          </div>
+
+
+        </div>
+      </div>
+
+      <form id="cForm" onsubmit="submitForm(event)" novalidate>
+        <div class="f-row">
+          <div class="f-field">
+            <label class="f-label" for="fn">Name *</label>
+            <input class="f-input" type="text" id="fn" placeholder="Your name"/>
+            <div class="f-err" id="fnE"></div>
+          </div>
+          <div class="f-field">
+            <label class="f-label" for="fe">Email *</label>
+            <input class="f-input" type="email" id="fe" placeholder="you@email.com"/>
+            <div class="f-err" id="feE"></div>
+          </div>
+        </div>
+        <div class="f-field">
+          <label class="f-label" for="fs">Subject</label>
+          <select class="f-input" id="fs" style="cursor:pointer">
+            <option value="">Select…</option>
+            <option>Internship Opportunity</option>
+            <option>Collaboration</option>
+            <option>Project Feedback</option>
+            <option>Just Saying Hi</option>
+          </select>
+        </div>
+        <div class="f-field">
+          <label class="f-label" for="fm">Message *</label>
+          <textarea class="f-input f-textarea" id="fm" placeholder="What's on your mind?"></textarea>
+          <div class="f-err" id="fmE"></div>
+        </div>
+        <button type="submit" class="f-submit">Send Message</button>
+        <div class="f-ok" id="fOk"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-sig">Arko <span>Biswas</span></div>
+    <div class="footer-meta">Computer Science Engineering Student at VIT Vellore • Xaverian · 2026</div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
