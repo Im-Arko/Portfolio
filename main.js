@@ -44,7 +44,7 @@ function toggleSt() {
 }
 
 function hIn() {
-  document.getElementById('hov-box').style.borderColor = 'rgba(212,168,83,.4)';
+  document.getElementById('hov-box').style.borderColor = 'rgba(224,197,143,.42)';
   document.getElementById('hov-txt').innerHTML = 'Tetris<br/>C# · Unity · 2024';
   document.getElementById('hov-txt').style.color = 'var(--accent)';
 }
@@ -60,7 +60,7 @@ function chkPass(v) {
   if(/[A-Z]/.test(v)) s++;
   if(/[0-9]/.test(v)) s++;
   if(/[^a-zA-Z0-9]/.test(v)) s++;
-  const colors = ['#e05252','#e05252','#d4a853','#52a852'];
+  const colors = ['#d9705f','#d9705f','#E0C58F','#6fae7f'];
   const labels = ['Weak','Fair','Good','Strong'];
   const fill = document.getElementById('sfill');
   fill.style.width = v ? (s*25)+'%' : '0';
@@ -70,9 +70,9 @@ function chkPass(v) {
 }
 
 const galData = [
-  {e:'🌿',bg:'linear-gradient(135deg,#1b2a1e,#2d6a4f)'},
-  {e:'🔥',bg:'linear-gradient(135deg,#2a1010,#6b2020)'},
-  {e:'🌊',bg:'linear-gradient(135deg,#0a1a30,#1a3a6a)'},
+  {e:'🌿',bg:'linear-gradient(135deg,#16241f,#3C507D)'},
+  {e:'🔥',bg:'linear-gradient(135deg,#2a1c14,#8a4a3a)'},
+  {e:'🌊',bg:'linear-gradient(135deg,#0d1730,#112250)'},
 ];
 function swGal(i,el) {
   const m = document.getElementById('gmain');
@@ -103,5 +103,5 @@ function submitForm(e) {
 //  NAVBAR 
 window.addEventListener('scroll', () => {
   document.getElementById('mainNav').style.borderBottomColor =
-    window.scrollY > 40 ? 'rgba(255,255,255,.1)' : 'rgba(255,255,255,.07)';
+    window.scrollY > 40 ? 'rgba(245,240,233,.1)' : 'rgba(245,240,233,.07)';
 });
